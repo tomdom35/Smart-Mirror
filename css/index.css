@@ -1,0 +1,273 @@
+body {
+  background-color: black;
+  font: 400 1em/1.38 Montserrat;
+  color: #ffffff;
+}
+
+.info_bg p {
+  margin-bottom: -.2em;
+}
+
+.climate_bg {
+  /*position: absolute;
+  top: 0;
+  left: 235px;*/
+  /*z-index: 6;
+  width: 160px;
+  height: 160px;*/
+  /*border-top-right-radius: 10px;*/
+  /*background-color: rgb(255, 255, 255);*/
+}
+
+.weathericon {
+  /*position: absolute;*/
+  /*display: block;
+  position: absolute;
+  top: -5px;
+  left: 1.226993865%;*/
+  position: relative;
+  z-index: 5;
+  width: 150px;
+  top: -26px;
+  left: 10px;
+  filter: invert(1);
+  float: left;
+  /*height: auto;
+  overflow: hidden;*/
+}
+
+.container {
+  /*top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  z-index: 9;
+  top: -800px;
+  /*width: 398px;
+  height: 208px;*/
+  /*border-radius: 10px;*/
+  /*background-color: black;*/
+  /*box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);*/
+  /*opacity: 0.8;*/
+}
+
+.windicon {
+  /*display: block;
+  position: absolute;
+  top: 9px;
+  left: -3.9110429448%;*/
+  position: relative;
+  z-index: 3;
+  width: 70px;
+  top: 40px;
+  left: -27px;
+  float:left;
+  /*height: auto;
+  overflow: hidden;*/
+}
+
+.not-available, .failed {
+  position: absolute;
+  top: 464px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 248px;
+  min-height: 24px;
+  margin: 0 auto;
+  font: 0.625em/1.38 'Trebuchet MS';
+  color: rgb(0, 0, 0);
+}
+
+.humidity {
+  position: absolute;
+  top: 19px;
+  left: 29px;
+  z-index: 2;
+  width: 46px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info_bg {
+  position: absolute;
+  top: 149px;
+  left: 235px;
+  z-index: 4;
+  width: 163px;
+  height: 59px;
+  border-bottom-right-radius: 10px;
+  background-color: #1ab1ed;
+}
+
+.location {
+  /*position: absolute;
+  top: 128px;
+  left: 63px;
+  z-index: 8;
+  width: 108px;
+  min-height: 59px;*/
+  font-size: 2.5em;
+  font-weight: 400;
+  /*line-height: 1.38;*/
+  text-transform: uppercase;
+  color: white;
+}
+
+.temperature {
+  /*position: absolute;
+  top: 38px;
+  left: 72px;
+  z-index: 7;
+  width: 109px;
+  min-height: 28px;*/
+  float:left;
+  font-size: 4.5em;
+  /*font-weight: 700;*/
+  /*line-height: 1.38;*/
+  color: white;
+}
+
+.dropicon {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 43.1173312883%;
+  z-index: 1;
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+}
+
+.windspeed {
+  /*position: absolute;
+  top: 9px;
+  left: 109px;
+  width: 50px;
+  min-height: 29px;*/
+  position:relative;
+  font-size: 1.5em;
+  /*line-height: 1.38;*/
+  text-align: center;
+  color: #ffffff;
+  width: 50px;
+  height:50px;
+  left: 30px;
+  top: 5px;
+  float: left;
+}
+
+.wind {
+    /*float:left;*/
+}
+
+.windspeed p {
+  margin-bottom: -.3em;
+}
+
+.current_weather{
+    position: relative;
+    top: -55px;
+    left: 92px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.arrow_up {
+    position: relative;
+    filter: invert(1);
+    height: 50px;
+    width: 20px;
+    left: 40px;
+    top: -50px;
+    float: left;
+}
+
+.high {
+    position: relative;
+    font-size: 3.1em;
+    left: 70px;
+    top: 15px;
+    width: 500px;
+}
+
+.arrow_down {
+    position: relative;
+    filter: invert(1);
+    height: 50px;
+    width: 20px;
+    left: 310px;
+    top: -115px;
+}
+
+.low {
+    position: relative;
+    font-size: 3.1em;
+    /*float: left;*/
+    left: 190px;
+    top: -58px;
+}
+
+.temp_low {
+    width: 0;
+    height: 85px;
+}
+
+.car_image {
+    height: 75px;
+    width: 75px;
+    filter: invert(1);
+}
+
+.arrow_right {
+    position: relative;
+    height: 60px;
+    width: 80px;
+    left: 10px;
+    top: -10px;
+    filter: invert(1);
+}
+
+.uwm_logo {
+    position: relative;
+    width: 100px;
+    height: 75px;
+    left: 15px;
+}
+
+.traffic {
+  position:relative;
+  font-size: 2.5em;
+  text-align: center;
+  top: -155px;
+  left: 420px;
+  width: 300px;
+  height: 300px;
+}
+
+.traffic p {
+    margin-bottom: -.3em;
+}
+
+.message{
+    position: relative;
+    top: -300px;
+    font-size: 2.7em;
+}
+
+#drive_duration {
+    position: relative;
+    font-size: 2.5em;
+    top: -75px;
+    left: 315px;
+    width: 200px;
+}
+
+#time {
+    position: relative;
+    font-size: 10em;
+    top: -10px;
+}
